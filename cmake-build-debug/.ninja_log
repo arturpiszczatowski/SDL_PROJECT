@@ -1,0 +1,7 @@
+# ninja log v5
+1	749	6775544260737417	CMakeFiles/SDL_PROJECT.dir/src/main.cpp.obj	f6d0b3b26cbe0fab
+31	1524	6775544991674751	CMakeFiles/SDL_PROJECT.dir/src/main.cpp.obj	287cde62eb7b9eb4
+4	1528	6775544991704752	CMakeFiles/SDL_PROJECT.dir/src/Game.cpp.obj	4ffbe02529af0560
+8	1015	6775546269861929	CMakeFiles/SDL_PROJECT.dir/src/main.cpp.obj	287cde62eb7b9eb4
+4	1022	6775546800432135	CMakeFiles/SDL_PROJECT.dir/src/main.cpp.obj	287cde62eb7b9eb4
+1022	1240	6775546802577081	SDL_PROJECT.exe	6c8f31e1eac5de67

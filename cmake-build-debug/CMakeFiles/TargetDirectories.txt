@@ -1,0 +1,3 @@
+C:/Users/piszc/OneDrive/Desktop/SDL_PROJECT/cmake-build-debug/CMakeFiles/SDL_PROJECT.dir
+C:/Users/piszc/OneDrive/Desktop/SDL_PROJECT/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/piszc/OneDrive/Desktop/SDL_PROJECT/cmake-build-debug/CMakeFiles/rebuild_cache.dir
