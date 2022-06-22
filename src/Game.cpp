@@ -47,7 +47,8 @@ void Game::handleEvents() {
 }
 
 void Game::update() {
-
+    counter++;
+    std::cout << counter << std::endl;
 }
 
 void Game::render() {

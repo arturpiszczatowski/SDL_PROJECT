@@ -30,25 +30,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 12,
+				"line" : 15,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 10,
+				"line" : 13,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 14,
+				"line" : 17,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 9,
+				"line" : 12,
 				"parent" : 0
 			}
 		]
@@ -73,7 +73,11 @@
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/piszc/OneDrive/Desktop/SDL_PROJECT/Files/sdl/include"
+					"path" : "C:/Users/piszc/OneDrive/Desktop/SDL_PROJECT/Files/SDL/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/piszc/OneDrive/Desktop/SDL_PROJECT/Files/SDL2_image/VisualC/external/include"
 				}
 			],
 			"language" : "CXX",
@@ -112,7 +116,12 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LC:\\Users\\piszc\\OneDrive\\Desktop\\SDL_PROJECT\\Files\\sdl\\include",
+				"fragment" : "-LC:\\Users\\piszc\\OneDrive\\Desktop\\SDL_PROJECT\\Files\\SDL\\lib\\x86",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-LC:\\Users\\piszc\\OneDrive\\Desktop\\SDL_PROJECT\\Files\\SDL2_image\\VisualC\\external\\lib\\x86",
 				"role" : "libraryPath"
 			},
 			{
@@ -123,6 +132,11 @@
 			{
 				"backtrace" : 3,
 				"fragment" : "-lSDL2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lSDL2_IMAGE",
 				"role" : "libraries"
 			},
 			{
