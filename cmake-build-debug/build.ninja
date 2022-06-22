@@ -52,14 +52,14 @@ build cmake_object_order_depends_target_SDL_PROJECT: phony || CMakeFiles/SDL_PRO
 build CMakeFiles/SDL_PROJECT.dir/src/main.cpp.obj: CXX_COMPILER__SDL_PROJECT_Debug C$:/Users/piszc/OneDrive/Desktop/SDL_PROJECT/src/main.cpp || cmake_object_order_depends_target_SDL_PROJECT
   DEP_FILE = CMakeFiles\SDL_PROJECT.dir\src\main.cpp.obj.d
   FLAGS = -g -std=gnu++2a
-  INCLUDES = -ID:/Program -IC:/Users/piszc/OneDrive/Desktop/SDL_PROJECT/Files/SDL/include -IC:/Users/piszc/OneDrive/Desktop/SDL_PROJECT/Files/SDL2_image/VisualC/external/include
+  INCLUDES = -ID:/SDL/include/SDL2 -ID:/SDL2_image/include/SDL2
   OBJECT_DIR = CMakeFiles\SDL_PROJECT.dir
   OBJECT_FILE_DIR = CMakeFiles\SDL_PROJECT.dir\src
 
 build CMakeFiles/SDL_PROJECT.dir/src/Game.cpp.obj: CXX_COMPILER__SDL_PROJECT_Debug C$:/Users/piszc/OneDrive/Desktop/SDL_PROJECT/src/Game.cpp || cmake_object_order_depends_target_SDL_PROJECT
   DEP_FILE = CMakeFiles\SDL_PROJECT.dir\src\Game.cpp.obj.d
   FLAGS = -g -std=gnu++2a
-  INCLUDES = -ID:/Program -IC:/Users/piszc/OneDrive/Desktop/SDL_PROJECT/Files/SDL/include -IC:/Users/piszc/OneDrive/Desktop/SDL_PROJECT/Files/SDL2_image/VisualC/external/include
+  INCLUDES = -ID:/SDL/include/SDL2 -ID:/SDL2_image/include/SDL2
   OBJECT_DIR = CMakeFiles\SDL_PROJECT.dir
   OBJECT_FILE_DIR = CMakeFiles\SDL_PROJECT.dir\src
 
@@ -74,7 +74,7 @@ build CMakeFiles/SDL_PROJECT.dir/src/Game.cpp.obj: CXX_COMPILER__SDL_PROJECT_Deb
 build SDL_PROJECT.exe: CXX_EXECUTABLE_LINKER__SDL_PROJECT_Debug CMakeFiles/SDL_PROJECT.dir/src/main.cpp.obj CMakeFiles/SDL_PROJECT.dir/src/Game.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lSDL2main  -lSDL2  -lSDL2_image  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  LINK_PATH = -LD:/Program   -LC:/Users/piszc/OneDrive/Desktop/SDL_PROJECT/Files/SDL/lib/x86   -LC:/Users/piszc/OneDrive/Desktop/SDL_PROJECT/Files/SDL2_image/VisualC/external/lib/x86
+  LINK_PATH = -LD:/SDL/lib   -LD:/SDL2_image/lib
   OBJECT_DIR = CMakeFiles\SDL_PROJECT.dir
   POST_BUILD = cd .
   PRE_LINK = cd .

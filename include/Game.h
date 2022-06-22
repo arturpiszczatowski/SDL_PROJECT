@@ -1,7 +1,7 @@
 #ifndef SDL_PROJECT_GAME_H
 #define SDL_PROJECT_GAME_H
-#include <SDL2/SDL.h>
-//#include <SDL2_image.h>
+#include <SDL.h>
+#include <SDL_image.h>
 #include <iostream>
 
 class Game {

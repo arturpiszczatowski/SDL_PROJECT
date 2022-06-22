@@ -69,15 +69,11 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "D:/Program"
+					"path" : "D:/SDL/include/SDL2"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/piszc/OneDrive/Desktop/SDL_PROJECT/Files/SDL/include"
-				},
-				{
-					"backtrace" : 4,
-					"path" : "C:/Users/piszc/OneDrive/Desktop/SDL_PROJECT/Files/SDL2_image/VisualC/external/include"
+					"path" : "D:/SDL2_image/include/SDL2"
 				}
 			],
 			"language" : "CXX",
@@ -87,7 +83,7 @@
 				[
 					1
 				],
-				"standard" : "23"
+				"standard" : "20"
 			},
 			"sourceIndexes" : 
 			[
@@ -111,17 +107,12 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LD:\\Program",
+				"fragment" : "-LD:\\SDL\\lib",
 				"role" : "libraryPath"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LC:\\Users\\piszc\\OneDrive\\Desktop\\SDL_PROJECT\\Files\\SDL\\lib\\x86",
-				"role" : "libraryPath"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "-LC:\\Users\\piszc\\OneDrive\\Desktop\\SDL_PROJECT\\Files\\SDL2_image\\VisualC\\external\\lib\\x86",
+				"fragment" : "-LD:\\SDL2_image\\lib",
 				"role" : "libraryPath"
 			},
 			{
