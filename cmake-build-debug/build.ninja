@@ -73,7 +73,7 @@ build CMakeFiles/SDL_PROJECT.dir/src/Game.cpp.obj: CXX_COMPILER__SDL_PROJECT_Deb
 
 build SDL_PROJECT.exe: CXX_EXECUTABLE_LINKER__SDL_PROJECT_Debug CMakeFiles/SDL_PROJECT.dir/src/main.cpp.obj CMakeFiles/SDL_PROJECT.dir/src/Game.cpp.obj
   FLAGS = -g
-  LINK_LIBRARIES = -lSDL2main  -lSDL2  -lSDL2_IMAGE  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = -lSDL2main  -lSDL2  -lSDL2_image  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   LINK_PATH = -LD:/Program   -LC:/Users/piszc/OneDrive/Desktop/SDL_PROJECT/Files/SDL/lib/x86   -LC:/Users/piszc/OneDrive/Desktop/SDL_PROJECT/Files/SDL2_image/VisualC/external/lib/x86
   OBJECT_DIR = CMakeFiles\SDL_PROJECT.dir
   POST_BUILD = cd .

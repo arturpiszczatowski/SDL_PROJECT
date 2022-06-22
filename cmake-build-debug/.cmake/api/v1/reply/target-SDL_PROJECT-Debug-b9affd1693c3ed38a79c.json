@@ -136,7 +136,7 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "-lSDL2_IMAGE",
+				"fragment" : "-lSDL2_image",
 				"role" : "libraries"
 			},
 			{

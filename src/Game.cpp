@@ -1,5 +1,7 @@
 #include "../include/Game.h"
 
+SDL_Texture* playerTexture;
+
 Game::Game() {
 
 }
@@ -29,9 +31,8 @@ void Game::init(const char *title, int x, int y, int width, int height, bool ful
         }
 
         isRunning = true;
-    } else {
-        isRunning = false;
     }
+//    SDL_Surface*  temporarySurface = IMG_Load("assets/player.png");
 }
 
 void Game::handleEvents() {
