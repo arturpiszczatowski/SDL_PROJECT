@@ -1,13 +1,15 @@
-cmake_minimum_required(VERSION 3.21)
+cmake_minimum_required(VERSION 3.20)
 project(SDL_PROJECT)
 
 set(CMAKE_CXX_STANDARD 20)
 
-set(SDL2_INCLUDE_DIR D:/SDL/include/SDL2)
-set(SDL2_LIB_DIR D:/SDL/lib)
+set(SDL2_INCLUDE_DIR D:/libs/SDL2/include)
+set(SDL2_LIB_DIR D:/libs/SDL2/lib/x86)
 
-set(SDL2_IMAGE_INCLUDE_DIR D:/SDL2_image/include/SDL2)
-set(SDL2_IMAGE_LIB_DIR D:/SDL2_image/lib)
+set(SDL2_IMAGE_INCLUDE_DIR D:/libs/SDL2_image/include)
+set(SDL2_IMAGE_LIB_DIR D:/libs/SDL2_image/lib/x86)
+
+
 
 include_directories(${SDL2_INCLUDE_DIR} ${SDL2_IMAGE_INCLUDE_DIR})
 link_directories(${SDL2_LIB_DIR} ${SDL2_IMAGE_LIB_DIR})
